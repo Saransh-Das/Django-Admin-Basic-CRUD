@@ -35,11 +35,14 @@
             </ul>
             <form method="POST" action="search" class="form-inline my-3 my-lg-0">
                 {% csrf_token %}
-                <input name="name" class="form-control mr-sm-2 mx-4 px-4" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0 mx-4 py-1 px-4 " type="submit">Search</button>
+                <input style="width: 97%;" name="name" class="form-control mr-sm-2 mx-4 px-4" type="search" placeholder="Search" aria-label="Search">
+                
             </form>
+            <button class="btn btn-outline-success my-2 my-sm-0 mx-4 py-1 px-4 " type="submit">Search</button>
         </div>
     </nav>
+
+    
     {% block content %}
     
     {% endblock %}
