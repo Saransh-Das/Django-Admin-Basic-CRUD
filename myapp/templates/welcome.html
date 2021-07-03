@@ -3,13 +3,80 @@
 
 {% block content %}
 
+<h1 class="text-center">Welcome to Student Details Page</h1>
 
-<h1>Welcome to Home Page</h1>
 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1600x600/?books" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?schools,books" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?books,students" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<br>
+
+
+
+
+<div class="card-group">
+    <div class="card">
+      <img src="https://source.unsplash.com/300x300/?english,subject" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Literature</h5>
+        <p class="card-text">This is a Literature Tuitorial that students can understand better with the teachers help.</p>
+        <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/300x300/?technology,machines" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Technology in Modern World</h5>
+        <p class="card-text">This is a Technology in modern World Tuitorial that students can understand better with the teachers help.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/300x300/?science,fiction" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Science and Fiction</h5>
+        <p class="card-text">This is a Science and fiction Tuitorial that students can understand better with the teachers help.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+<br>
+
+<br>
+<h1>Student Details</h1>
 <p>
+  <button type="button" class="btn btn-outline-dark"> <a href="load_form" style="text-decoration:none"; style="color: blue;">Add New</a></button>
+   
+    <br>
+    <br>
 
-    <a href="load_form">Add New</a>
-    <a href="show">Show All</a>
+    <button type="button" class="btn btn-outline-dark"> <a href="show" style="text-decoration:none"; style="color: blue;" >Show All</a></button> 
+    
 
 </p>
 

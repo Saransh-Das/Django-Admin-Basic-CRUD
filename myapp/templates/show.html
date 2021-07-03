@@ -7,6 +7,7 @@
 
     <tr>
         <th>ID</th>
+        <th>Class</th>
         <th>Name</th>
         <th>Email</th>
         <th>Contact</th>
@@ -16,14 +17,17 @@
     <tr>
 
         <td>{{ i.eid }}</td>
+        <td>{{ i.eclass }}</td>
         <td>{{ i.ename }}</td>
         <td>{{ i.eemail }}</td>
         <td>{{ i.econtact }}</td>
         <td>
-            <a href="edit/{{ i.id }}">Edit</a>
+           
+            <button type="button" class="btn btn-outline-primary"> <a href="edit/{{ i.id }}" style="text-decoration:none"; >Edit</a></button> 
         </td>
         <td>
-            <a href="delete/{{ i.id }}">Delete</a>
+            <button type="button" class="btn btn-outline-danger"> <a href="delete/{{ i.id }}" style="text-decoration:none";  >Delete</a></button> 
+         
         </td>
 
     </tr>
